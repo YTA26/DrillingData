@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTA.DrillingData.NTier.Entities", "YTA.DrillingData.NTier.Entities\YTA.DrillingData.NTier.Entities.csproj", "{B2042B92-42BC-46B3-83CD-3CB969ABA8D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTA.DrillingData.NTier.Core", "YTA.DrillingData.NTier.Core\YTA.DrillingData.NTier.Core.csproj", "{1D6E442D-D48E-4F72-BF73-57F4ADEDFACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTA.DrillingData.NTier.DataAccess", "YTA.DrillingData.NTier.DataAccess\YTA.DrillingData.NTier.DataAccess.csproj", "{A99ECEC8-3482-4CD2-8217-5198A12422AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTA.DrillingData.NTier.Business", "YTA.DrillingData.NTier.Business\YTA.DrillingData.NTier.Business.csproj", "{5A02DFA8-E39F-4716-AF7B-53B850BD1116}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "YTA.DrillingData.NTier.WCFService", "YTA.DrillingData.NTier.WCFService\", "{96598C51-259A-4134-8C9A-51C8125DB9C2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64524"
+		Debug.AspNetCompiler.PhysicalPath = "YTA.DrillingData.NTier.WCFService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64524\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64524"
+		Release.AspNetCompiler.PhysicalPath = "YTA.DrillingData.NTier.WCFService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64524\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64524"
+		SlnRelativePath = "YTA.DrillingData.NTier.WCFService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2042B92-42BC-46B3-83CD-3CB969ABA8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2042B92-42BC-46B3-83CD-3CB969ABA8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2042B92-42BC-46B3-83CD-3CB969ABA8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2042B92-42BC-46B3-83CD-3CB969ABA8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D6E442D-D48E-4F72-BF73-57F4ADEDFACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6E442D-D48E-4F72-BF73-57F4ADEDFACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6E442D-D48E-4F72-BF73-57F4ADEDFACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6E442D-D48E-4F72-BF73-57F4ADEDFACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99ECEC8-3482-4CD2-8217-5198A12422AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99ECEC8-3482-4CD2-8217-5198A12422AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99ECEC8-3482-4CD2-8217-5198A12422AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99ECEC8-3482-4CD2-8217-5198A12422AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A02DFA8-E39F-4716-AF7B-53B850BD1116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A02DFA8-E39F-4716-AF7B-53B850BD1116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A02DFA8-E39F-4716-AF7B-53B850BD1116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A02DFA8-E39F-4716-AF7B-53B850BD1116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96598C51-259A-4134-8C9A-51C8125DB9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96598C51-259A-4134-8C9A-51C8125DB9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96598C51-259A-4134-8C9A-51C8125DB9C2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{96598C51-259A-4134-8C9A-51C8125DB9C2}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CBB1DD2-41B7-4533-BF17-EDB9F4E43306}
+	EndGlobalSection
+EndGlobal
